@@ -1,0 +1,42 @@
+@import url(../libs/slick/slick.css);
+@import url(../libs/slick/slick-theme.css);
+
+*,
+::before,
+::after {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+// section {
+//     overflow: hidden;
+// }
+
+@import "./variables";
+@import "./header";
+@import "./home";
+@import './hoildays';
+@import "./postcard";
+@import "./destination";
+@import "./packages";
+@import "./voyage";
+@import "./delight";
+@import "./conqueror";
+@import './modal';
+@import "./media";
